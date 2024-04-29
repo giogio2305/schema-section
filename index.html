@@ -1,0 +1,257 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+  @import url("https://creativemilkshake.com/cdn/shop/t/27/assets/all.min.css?v=44728044530659099931660033155");
+
+  .sora {
+      font-family: "Sora", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+  }
+.wrapper {
+    position: relative;
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+    background-color: rgba(221, 212, 246, 1);
+}
+.wrapper:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    aspect-ratio: 144 / 7;
+    z-index: 1;
+    background: #FEFAE0 url("https://creativemilkshake.com/cdn/shop/t/27/assets/bg-purple-light-wave.svg") no-repeat center 1px;
+    background-size: cover;
+    transform: scaleY(-1);
+    box-shadow: 0 2px 0 #DDD4F6;
+}
+.section-title{
+    color: rgba(51, 26, 126, 1);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 48px !important;
+    font-size: 44px;
+    line-height: 1.2;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.items-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item {
+    text-align: center;
+    max-width: 290px;
+}
+.item img {
+    width: auto;
+    height: 175px;
+    margin-bottom: 30px;
+}
+.item p {
+    color: #6945D8;
+    font-weight: 700;
+    font-size: 18px;
+}
+.arrow {
+    background: #331A7E;
+    width: 45px;
+    aspect-ratio: 1 / 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 45px;
+}
+.arrow img {
+    filter: brightness(0) invert(1);
+    width: auto;
+    height: auto;
+    max-width: 25px;
+    max-height: 20px;
+}
+.mob-items-container{
+    display: none !important;
+    text-align: center !important;
+}
+.offset-3 {
+    margin-left: 25%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+.rotate-270 {
+    transform: rotate(270deg);
+}.mb-3 {
+    margin-bottom: 16px !important;
+}
+@media (max-width: 767.98px) {
+    .section-title{
+        font-size: 25px;
+    }
+    .wrapper{
+        width: 100% !important;
+    }
+    .items-container{
+        display: none !important;
+    }
+    .mob-items-container{
+        display: flex !important;
+    flex-wrap: wrap;
+    }
+    .item {
+        max-width: none;
+    }
+.item img {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+.item p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+.arrow {
+        width: 30px;
+    }
+.arrow img {
+        max-width: 10px;
+        max-height: 10px;
+    }
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66667%;
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66667%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotate-90 {
+    transform: rotate(90deg);
+}
+.rotate-180 {
+    transform: rotate(180deg);
+}
+}
+</style>
+<div class="wrapper sora">
+    <div class="container" style="max-width:850px">
+      <h3 class="section-title">Our Performance Creative Workflow</h3>
+    </div>
+    <div class="container">
+      <div class="items-container">
+        <div class="item">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-1.png?v=1649052357">
+          <p class="mb-0">Creative Strategy <br>&amp; Production</p>
+        </div>
+        <div class="arrow">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-right.svg?v=1649052591">        
+        </div>
+        <div class="item">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-2.png?v=1649052357">
+          <p class="mb-0">Delivery of Ads <br>and Variations for Testing</p>
+        </div>
+        <div class="arrow">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-right.svg?v=1649052591">        
+        </div>
+        <div class="item">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-3.png?v=1649052357">
+          <p class="mb-0">Performance <br>Analysis</p>
+        </div>
+      </div>
+
+      <div class="items-container">
+        <div class="arrow">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-up.svg?v=1649052591">        
+        </div>
+        <div class="item">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-4.png?v=1649052357">
+          <p class="mb-0">Performance <br>Analysis</p>
+        </div>
+        <div class="arrow">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-right.svg?v=1649052591" class="flip">        
+        </div>
+        <div class="item">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-5.png?v=1649052357">
+          <p class="mb-0">Delivery of Ads <br>and Variations for Testing</p>
+        </div>
+        <div class="arrow">
+          <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-up.svg?v=1649052591" class="rotate-270">        
+        </div>
+      </div>
+
+
+      <div class="mob-items-container">
+        <div class="col-6 offset-3">
+          <div class="item">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-1.png?v=1649052357">
+            <p class="mb-0">Creative Strategy <br>&amp; Production</p>
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="arrow">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-up.svg?v=1649052591" class="rotate-90 arrow-up">        
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="arrow">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-up.svg?v=1649052591" class="rotate-180 arrow-up">        
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="item">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-3.png?v=1649052357">
+            <p class="mb-0">Performance <br>Analysis</p>
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="item">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-2.png?v=1649052357">
+            <p class="mb-0">Delivery of Ads <br>&amp; Variations for Testing</p>
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="arrow">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-right.svg?v=1649052591" class="rotate-270">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="arrow">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-right.svg?v=1649052591" class="rotate-90">
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="item">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-5.png?v=1649052357">
+            <p class="mb-0">Delivery of Ads <br>&amp; Variations for Testing</p>
+          </div>
+        </div>
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <div class="arrow">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/arrow-right.svg?v=1649052591" class="rotate-180">
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="item">
+            <img src="https://cdn.shopify.com/s/files/1/0471/2585/6407/files/recipe-4.png?v=1649052357">
+            <p class="mb-0">Performance <br>Analysis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
